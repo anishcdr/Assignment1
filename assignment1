@@ -137,3 +137,13 @@ print(myset)
 myset.update(data)
 print(myset)
 
+#Functions
+def array(n):
+  yourlist=[]
+  for i in range(n):
+    print("No.",i)
+    element=input("element in the list is ")
+    yourlist.append(element)
+  print("Your list is=",yourlist)
+n=input("Number of elements= ")
+array(int(n))
