@@ -39,3 +39,5 @@ mylist.pop(int(n))
 
 data=input("Enter the data you want to remove")
 mylist.remove(data)
+
+
