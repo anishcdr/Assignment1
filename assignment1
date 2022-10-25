@@ -1,6 +1,41 @@
-#Tuple
-mytuple=(1,"a",True)
-print(mytuple)
+#Assignment1
 
-#Length of a tuple
-print(len(mytuple))
+#List
+mylist=[1,"a",True]
+print(mylist)
+
+print(type(mylist))
+
+#Use of positive and negative indexing
+string="="
+for i in range(3):
+  print(mylist[i],string,mylist[i-3])
+
+#Updating the data
+n=input("Enter the index number of the data you want to change ")
+data=input("Enter the data you want to replace with ")
+mylist[int(n)]=data
+print("New list=",mylist)
+
+#Appending the data
+add=input("Enter the data which you want to add ")
+mylist.append(add)
+print("New list=",mylist)
+
+#Inserting
+i=input("Enter the position you want to insert the data at ")
+insert=input("Enter the data you want to insert ")
+mylist.insert(int(i),insert)
+print("New list=",mylist)
+
+#Deleting particular elements on a list
+n=input("Enter the index number of the element you want to delete")
+del mylist[int(n)]
+print(mylist)
+
+#Or
+
+mylist.pop(int(n))
+
+data=input("Enter the data you want to remove")
+mylist.remove(data)
