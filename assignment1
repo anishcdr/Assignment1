@@ -96,3 +96,44 @@ print(myset)
 
 myset.update(data)
 print(myset)
+
+#Sets
+myset={1,"a",True}
+print(myset)
+
+#Union of sets
+set2={2,"b",False}
+myset.union(set2)
+print(myset)
+
+#Intersection of sets
+set3={3,"c",True}
+myset.intersection(set3)
+print(myset)
+
+
+#Deleting all elements in a set
+set2.clear()
+print(set2)
+
+#Or
+
+del set3
+#print(set3) gives error
+
+#Or
+
+set4={1,"d",True}
+set4.pop
+print(set4)
+
+#Appending or adding or updating in a set
+data=input("Enter the element you want to append ")
+myset.add(data)
+print(myset)
+
+#Or
+
+myset.update(data)
+print(myset)
+
