@@ -1,6 +1,0 @@
-#Tuple
-mytuple=(1,"a",True)
-print(mytuple)
-
-#Length of a tuple
-print(len(mytuple))
