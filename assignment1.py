@@ -147,3 +147,45 @@ def array(n):
   print("Your list is=",yourlist)
 n=input("Number of elements= ")
 array(int(n))
+
+#Mutability of a set
+myset={"Data", 213,253}
+myset[1]=1 
+#Conclusion: Gives an error as a set is not ordered
+
+set1={1,2,3}
+set2={'a','b'}
+print(set1.union(set2))
+#Or
+print(set1|set2)
+#Conclusion: Union of sets is possible
+
+#Intersection of sets
+print(set1.intersection(set2))
+#Or
+print(set1&set2)
+#Conclusion: Intersection of sets is possible
+
+#Deleting all elements in a set
+set1.clear()
+print(set1)
+#Or
+del set2
+#print(set2) gives an error as it is undefined now
+#Or
+set1.pop
+print(set1)
+#Conclusion: Elements in a set can be deleted
+
+#Appending or adding or updating in a set
+tuple1=(1,2,3)
+myset.add(tuple1)
+print(myset)
+#Or
+dic1={1:10,
+      2:11}
+myset.update(dic1)
+print(myset)
+#Conclusion: Elements in a set can be updated
+
+'''This shows that in a set, although, the elements cannot be updated individually, they can be modified by other means, thus we can say that a set is mutable'''
